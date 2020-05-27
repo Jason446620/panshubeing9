@@ -2,17 +2,17 @@
   "routes": [
     {
       "route": "/*",
-      "serve": "/index.html",
+      "serve": "/src/index.html",
       "statusCode": 200
     },
     {
       "route": "/test",
-      "serve": "/ngtest.html",
+      "serve": "/src/ngtest.html",
       "statusCode": 404
     },
     {
       "route": "/ng9",
-      "serve": "/ng9test.html",
+      "serve": "/src/ng9test.html",
       "statusCode": 200
     }
   ]
