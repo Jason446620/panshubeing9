@@ -8,6 +8,11 @@
     {
       "route": "/test",
       "serve": "/ngtest.html",
+      "statusCode": 404
+    },
+    {
+      "route": "/ng9",
+      "serve": "/ng9test.html",
       "statusCode": 200
     }
   ]
